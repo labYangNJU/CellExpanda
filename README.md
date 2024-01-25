@@ -3,7 +3,7 @@
 CellExpanda is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells.
 
 
-<img width="659" alt="Screen Shot 2024-01-25 at 3 05 53 PM" src="https://github.com/labYangNJU/CellExpanda/assets/80734679/754c85f1-aaea-4f3b-a0bd-9e49176bde9d">
+<img width="641" alt="Screen Shot 2024-01-25 at 5 09 08 PM" src="https://github.com/labYangNJU/CellExpanda/assets/80734679/25ee5344-a7d1-4c0f-b54f-9acf0e194a9b">
 
 
 For more details, please check our paper: Taking full advantage of paired single-cell multimodal data for holistic representation of cells with CellExpanda.
