@@ -15,3 +15,11 @@ An expample input dataset can be found in the example/ directory.
 
 
 # Installation
+
+
+# Usage
+
+
+
+# Dependencies
+Python 3.6
