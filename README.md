@@ -20,7 +20,7 @@ Totally, there are four files required:
 
 3.sampleName_celltype_info.csv  # The cell-type label file with one barcode and cell-type label per line. (header is required!)
 
-4.feature_discriminator.txt  # The file with feature name and weight (o indicated with no weight and 1 indicated with weight).
+4.feature_discriminator.txt  # The file with feature name and weight (0 indicated with no weight and 1 indicated with weight).
 
 
 
