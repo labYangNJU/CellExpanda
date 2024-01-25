@@ -11,7 +11,16 @@ For more details, please check our paper: Taking full advantage of paired single
 
 # Input Data
 CellExpanda takes count matrices from paired single-cell multimodal data consisting of different types and numbers of modalities.
-An expample input dataset can be found in the example/ directory.
+An expample input dataset can be found in the example/ directory. Note: You should name each file the same format as shown in the example.
+Totally, there are four files required:
+1.sampleName_SparseMatrix.txt  # The raw count sparsematrix with three columns.
+
+2.sampleName_barcode.txt  # The barcode file with one barcode per line.
+
+3.sampleName_celltype_info.csv  # The cell-type label file with one barcode and cell-type label per line. (header is required!)
+
+4.feature_discriminator.txt  # The file with feature name and weight (o indicated with no weight and 1 indicated with weight).
+
 
 
 # Installation
