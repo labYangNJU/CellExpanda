@@ -30,6 +30,7 @@ conda env create -f CellExpanda.yaml
 
 # Usage
 1.Activate conda environment
+
 conda activate CellExpanda
 
 2.Configure your sampleName.yaml files under the configs/ directory.
@@ -37,6 +38,7 @@ conda activate CellExpanda
 3.Create sampleName directory under the result/ directory.
 
 4.Run the CellExpanda model.
+
 python3 main.py --dataset=sampleName
 
 
