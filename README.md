@@ -10,8 +10,8 @@ For more details, please check our paper: Taking full advantage of paired single
 
 
 # Input Data
-CellExpanda takes count matrices from paired single-cell multimodal data consisting of different types and numbers of modalities.
-An expample input dataset can be found in the example/ directory. Note: You should change names of files according to your own dataset.
+CellExpanda takes count matrices from paired single-cell multimodal data. There is no limitation for the types and numbers of modalities.
+An expample input dataset can be found in the example/ directory. Note: You should change the "sampleName" of files according to your own dataset.
 Totally, there are four files required:
 
 1.sampleName_SparseMatrix.txt  # The raw count sparsematrix with three columns.
