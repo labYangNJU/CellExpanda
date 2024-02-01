@@ -18,9 +18,7 @@ Totally, there are four files required:
 
 2.sampleName_barcode.txt  # The barcode file with one barcode per line.
 
-3.sampleName_celltype_info.csv  # The cell-type label file with one barcode and cell-type label per line. (header is required!)
-
-4.feature_discriminator.txt  # The file with feature name and weight (0 indicated with no weight and 1 indicated with weight).
+3.feature_discriminator.txt  # The file with feature name and weight (0 indicated with no weight and 1 indicated with weight).
 
 
 
@@ -33,7 +31,7 @@ conda env create -f CellExpanda.yaml
 
 conda activate CellExpanda
 
-2.Configure your sampleName.yaml files under the configs/ directory. Detailed instructions can be found in the provided sampleName.yaml file.
+2.Configure your sampleName.yaml files under the configs/ directory. Detailed instructions can be found in the ReadMe_for_yaml_file.txt file.
 
 3.Create sampleName directory under the result/ directory.
 
