@@ -7,7 +7,6 @@ CellExpanda is implemented by python to take full advantage of paired single-cel
 
 
 For more details, please check our paper: Unlocking full potential of paired single-cell multi-omics to expand cellular view with CellExpanda.
-.
 
 
 # Input Data
