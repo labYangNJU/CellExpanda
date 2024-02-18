@@ -60,3 +60,8 @@ Example:
 max_cells: The maximum fraction of cells with null-zero values for each feature. 
 Example:
 0.95
+
+
+device: The device to run CellExpanda.
+Example:
+"cuda:0" # If cuda is not available, please change to "cpu".
