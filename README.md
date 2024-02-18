@@ -1,6 +1,6 @@
 # CellExpanda
 # Introduction
-CellExpanda is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells.
+CellExpanda is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells. Running CellExpanda on CUDA is recommended if available.
 
 
 <img width="794" alt="截屏2024-02-17 12 49 59" src="https://github.com/labYangNJU/CellExpanda/assets/80734679/67f27cfd-621b-4fd6-81ec-cf9854baf72a">
