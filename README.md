@@ -47,10 +47,15 @@ python3 main.py --dataset=sampleName
 # Dependencies
 + Python3.6
 + sklearn
-+ scipy
 + torch
 + matplotlib
 + numpy
-+ tqdm
 + networkx
 + igraph
++ yaml
++ pandas
++ tensorboardX
++ community
++ networkx
++ leidenalg
++ umap
