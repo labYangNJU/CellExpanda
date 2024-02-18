@@ -29,7 +29,8 @@ The file with feature information. You can increase weight for selected features
 
 
 # Installation
-conda env create -f CellExpanda.yaml
+1. conda env create -f CellExpanda.yaml
+2. install the following python packages by pip or conda: sklearn; torch; matplotlib; numpy; networkx; igraph; yaml; pandas; tensorboardX; community; networkx; leidenalg; umap; torchsummary; pysam; pytorch_metric_learning. 
 
 
 # Usage
