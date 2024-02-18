@@ -39,15 +39,13 @@ conda activate CellExpanda
 
 2.Configure your sampleName.yaml files under the configs/ directory. Detailed instructions can be found in the ReadMe_for_yaml_file.txt file.
 
-3.Create sampleName directory under the result/ directory.
-
-4.Run the CellExpanda model.
+3.Run the CellExpanda model.
 
 python3 main.py --dataset=sampleName
 
 
 # Dependencies
-+ Python3
++ Python3.6
 + sklearn
 + scipy
 + torch
