@@ -14,11 +14,18 @@ CellExpanda takes count matrices from paired single-cell multimodal data. There 
 An expample input dataset can be found in the example/ directory. Note: You should change the "sampleName" of files according to your own dataset.
 Totally, there are three files required:
 
-1.sampleName_SparseMatrix.txt  # The raw count sparsematrix with three columns.
+1.sampleName_SparseMatrix.txt  
 
-2.sampleName_barcode.txt  # The barcode file with one barcode per line.
+# The raw count sparse matrix for the multimodal dataset with features from all modalities.
 
-3.feature_discriminator.txt  # The file with feature name and weight (0 indicated with no weight and 1 indicated with weight).
+2.sampleName_barcode.txt  
+
+# The barcode file with one barcode per line for each cell.
+
+3.feature_discriminator.txt  
+
+# The file with feature information. 
+# You could add weight for features that you think is particular important for cell type idetification using tools like DubStepR (DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data). The first column is feature name and the second column is the weight that add to particular features.
 
 
 
