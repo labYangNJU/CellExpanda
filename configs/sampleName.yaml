@@ -20,7 +20,7 @@ model_params:
 
 data_params: 
   name: 'sampleName' # The name of your dataset.
-  data_path: "../data/sampleName" # The path of the input dataset. Should be a directory.
+  data_path: "./data/sampleName" # The path of the input dataset. Should be a directory.
   binary: [False, False] # Whether each modality should be binarized. 
   normalize: [False, False] # Whether each modality should be normalized. 
   log_variational: [False, False] # Whether each modality should be log normalized.
@@ -43,7 +43,7 @@ trainer_params:
   min_delta: 0.2
   patience: 50
   accelerator: "auto"
-  n_epochs: 10
+  n_epochs: 1000
   warmup_epochs: 50
   batch_size: 128
   lr_e: 0.0001
