@@ -43,7 +43,7 @@ trainer_params:
   min_delta: 0.2
   patience: 50
   accelerator: "auto"
-  n_epochs: 1000
+  n_epochs: 10
   warmup_epochs: 50
   batch_size: 128
   lr_e: 0.0001
