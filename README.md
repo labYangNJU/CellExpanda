@@ -30,7 +30,7 @@ The file with feature information. You can increase weight for selected features
 
 # Installation
 1. conda env create -f CellExpanda.yaml
-2. install the following python packages by pip or conda: sklearn; torch; matplotlib; numpy; networkx; igraph; pyyaml; pandas; tensorboardX; community; networkx; leidenalg; umap; torchsummary; pysam; pytorch_metric_learning. 
+2. install the following python packages by pip or conda: sklearn; torch; matplotlib; numpy; networkx; igraph; pyyaml; pandas; tensorboardX; community; leidenalg; umap; torchsummary; pysam; pytorch_metric_learning. 
 
 
 # Usage
@@ -57,7 +57,6 @@ python3 main.py --dataset=sampleName
 + pandas
 + tensorboardX
 + community
-+ networkx
 + leidenalg
 + umap
 + torchsummary
