@@ -59,3 +59,6 @@ python3 main.py --dataset=sampleName
 + networkx
 + leidenalg
 + umap
++ torchsummary
++ pysam
++ pytorch_metric_learning
