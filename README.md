@@ -46,6 +46,7 @@ Create a conda environment with python3 and install all the dependencies.
 
 option 2:
 Create an environment from the env.yml file (We tested with conda==4.12.0, python==3.6.9).
+
       conda env create -f env.yaml
 
 Notes: 
