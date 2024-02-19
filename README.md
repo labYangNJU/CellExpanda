@@ -12,6 +12,7 @@ For more details, please check our paper: Unlocking full potential of paired sin
 # Directory structure
 .
 ├── CellExpands          # Main Python package
+
       ├── configs        # Config yaml file
       ├── main.py
       ├── model.py
