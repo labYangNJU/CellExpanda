@@ -10,6 +10,18 @@ For more details, please check our paper: Unlocking full potential of paired sin
 
 
 # Directory structure
+.
+├── CellExpands          # Main Python package
+      ├── configs        # Config yaml file
+      ├── main.py
+      ├── model.py
+      ├── modules.py
+      ├── ...  
+├── data                 # Datasets
+├── scripts              # Scripts for reproducibility of results in the manuscript
+├── env.yaml             # Reproducible Python environment via conda
+├── LICENSE
+└── README.md
 
 # Input Data
 CellExpanda takes count matrices from paired single-cell multimodal data. There is no limitation for the types and numbers of modalities.
