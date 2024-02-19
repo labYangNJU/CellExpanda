@@ -7,8 +7,8 @@ For more details, please check our publication later.
 
 # Directory structure
       .
-      ├── CellExpands          # Main Python package
-            ├── configs        # Config yaml file 
+      ├── CellExpanda          # Main Python package
+            ├── configs        # Config yaml files for each dataset 
             ├── main.py
             ├── model.py
             ├── modules.py
