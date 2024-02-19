@@ -41,6 +41,10 @@ The file with feature information. You can increase weight for selected features
 
 
 # Installation
+option 1:
+Create a conda environment with python3 and install all the dependencies.
+
+option 2:
 1. conda env create -f CellExpanda.yaml
 2. conda install conda-forge::leidenalg
 3. install the following python packages by pip : sklearn; torch; matplotlib; numpy; networkx; igraph; pyyaml; pandas; tensorboardX; python-louvain; umap; torchsummary; pysam; pytorch_metric_learning.
