@@ -9,6 +9,8 @@ CellExpanda is implemented by python to take full advantage of paired single-cel
 For more details, please check our paper: Unlocking full potential of paired single-cell multi-omics to expand cellular view with CellExpanda.
 
 
+# Directory structure
+
 # Input Data
 CellExpanda takes count matrices from paired single-cell multimodal data. There is no limitation for the types and numbers of modalities.
 An expample input dataset can be found in the example/ directory. Note: You should change the "sampleName" of files according to your own dataset.
@@ -24,7 +26,11 @@ The barcode file with one barcode per line for each cell.
 
 3.feature_discriminator.txt  
 
-The file with feature information. You can increase weight for selected features which could be more important for cell clustering. For example, features can be selected using tools like DubStepR (PMID: 34615861). The first column is feature name and the second column is the additional weight for particular features. If no additonal weigh is needed, set 0 for the feature.
+The file with feature information. You can increase weight for selected features which could be more important for cell clustering. For example, features can be selected using tools like DubStepR (PMID: 34615861
+        
+        
+        
+        ). The first column is feature name and the second column is the additional weight for particular features. If no additonal weigh is needed, set 0 for the feature.
 
 
 
