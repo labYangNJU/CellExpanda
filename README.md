@@ -1,6 +1,6 @@
 # CellExpanda
 # Introduction
-CellExpanda is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells. Running CellExpanda on CUDA is recommended if available.
+CellExpanda is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells. Running CellExpanda on GPU is recommended if available.
 
 For more details, please check our publication later.
 
@@ -45,9 +45,12 @@ option 1:
 Create a conda environment with python3 and install all the dependencies.
 
 option 2:
-1. conda env create -f CellExpanda.yaml
-2. conda install conda-forge::leidenalg
-3. install the following python packages by pip : sklearn; torch; matplotlib; numpy; networkx; igraph; pyyaml; pandas; tensorboardX; python-louvain; umap; torchsummary; pysam; pytorch_metric_learning.
+Create an environment from the env.yml file (require python==3.6.9).
+      conda env create -f env.yaml
+
+Notes: 
+If any dependencies are not installed automatically, you should install them by pip or conda.
+If GPU is used, the torch version should be compiled with your version of the CUDA driver.
 
 
 # Usage
