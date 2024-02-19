@@ -78,7 +78,7 @@ The representation of cells would be generated in the directory CellExpanda/resu
             ├── ...  
       └── sampleName-512-10-cluster_result.csv      # The clustering information of cells with tSNE emmbeddings. 
       
-The reconstructed data would be generated in the directory CellExpanda/model/ and can be extracted as: 
+The reconstructed data would be generated in the directory CellExpanda/result/sampleName and can be extracted as: 
 
       python3 main.py --dataset=sampleName --mode=reconstruct
       
