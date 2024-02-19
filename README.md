@@ -65,6 +65,16 @@ If GPU is used, the torch version should be compiled with your version of the CU
 
       python3 main.py --dataset=sampleName
 
+# Output 
+The representation of cells would be generated in the directory CellExpanda/result/.
+      result
+      ├── sampleName         # The directory 
+            ├── latent-sampleName-512-10.txt        # The latent representation of cells (can be used to generate UMAP emmbeddings).
+            ├── GMVAE-alpha-gan-tsne-pred.png       # The tSNE visualization of cells. 
+            ├── ...  
+      └── sampleName-512-10-cluster_result.csv      # The clustering information of cells with tSNE emmbeddings. 
+      
+The reconstructed data would be generated in the directory CellExpanda/model/.
 
 # Dependencies
 + Python3
