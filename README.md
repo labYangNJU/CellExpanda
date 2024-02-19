@@ -67,6 +67,7 @@ If GPU is used, the torch version should be compiled with your version of the CU
 
 # Output 
 The representation of cells would be generated in the directory CellExpanda/result/.
+
       result
       ├── sampleName         # The directory 
             ├── latent-sampleName-512-10.txt        # The latent representation of cells (can be used to generate UMAP emmbeddings).
