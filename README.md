@@ -59,13 +59,16 @@ If GPU is used, the torch version should be compiled with your version of the CU
 
       conda activate CellExpanda
 
-2.Configure your sampleName.yaml files under the directory CellExpanda/configs/. Detailed instructions can be found in the ReadMe_for_yaml_file.txt file.
+2.Configure your sampleName.yaml files under the directory CellExpanda/configs/. Detailed instructions can be found in the ReadMe_for_ConfigYaml_file.txt file.
 
 3.Run the CellExpanda model.
 
       python3 main.py --dataset=sampleName
 
+
 # Output 
+The output includes 1) the representation of cells; 2) the reconstructed single-cell multimodal data.
+
 The representation of cells would be generated in the directory CellExpanda/result/.
 
       result
