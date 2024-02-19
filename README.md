@@ -35,9 +35,7 @@ The barcode file with one barcode per line for each cell.
 
 3.feature_discriminator.txt  
 
-The file with feature information. You can increase weight for selected features which could be more important for cell clustering. For example, features can be selected using tools like DubStepR (PMID: 34615861
-        
-        ). The first column is feature name and the second column is the additional weight for particular features. If no additonal weigh is needed, set 0 for the feature.
+The file with feature information. You can increase weight for selected features which could be more important for cell clustering. For example, features can be selected using tools like DubStepR (PMID: 34615861). The first column is feature name and the second column is the additional weight for particular features. If no additonal weigh is needed, set 0 for the feature.
 
 
 # Installation
