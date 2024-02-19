@@ -63,7 +63,7 @@ If GPU is used, the torch version should be compiled with your version of the CU
 
 3.Run the CellExpanda model.
 
-      python3 main.py --dataset=sampleName
+      python3 main.py --dataset=sampleName --mode=train
 
 
 # Output 
@@ -79,6 +79,7 @@ The representation of cells would be generated in the directory CellExpanda/resu
       └── sampleName-512-10-cluster_result.csv      # The clustering information of cells with tSNE emmbeddings. 
       
 The reconstructed data would be generated in the directory CellExpanda/model/ and can be extracted as: 
+      python3 main.py --dataset=sampleName --mode=reconstruct
       
 
 # Dependencies
