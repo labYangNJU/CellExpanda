@@ -63,7 +63,7 @@ python3 main.py --dataset=sampleName
 
 
 # Dependencies
-+ Python3.6
++ Python3
 + sklearn
 + torch
 + matplotlib
