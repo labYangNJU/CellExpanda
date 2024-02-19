@@ -10,70 +10,20 @@ For more details, please check our paper: Unlocking full potential of paired sin
 
 
 # Directory structure
-.
-├── CellExpands          # Main Python package
-      ├── configs        # Config yaml file
-      ├── main.py
-      ├── model.py
-      ├── modules.py
-      ├── ...  
-├── data                 # Datasets
-├── scripts              # Scripts for reproducibility of results in the manuscript
-├── env.yaml             # Reproducible Python environment via conda
-├── LICENSE
-└── README.md
+      .
+      ├── CellExpands          # Main Python package
+            ├── configs        # Config yaml file 
+            ├── main.py
+            ├── model.py
+            ├── modules.py
+            ├── ...  
+      ├── data                 # Datasets
+      ├── scripts              # Scripts for reproducibility of results in the manuscript
+      ├── env.yaml             # Reproducible Python environment via conda
+      ├── LICENSE
+      └── README.md
 
-.
-|____result
-| |____.DS_Store
-| |____logs
-| | |____events.out.tfevents.1708322340.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708316325.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708321345.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708320566.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708321619.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708315924.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708321636.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708316279.Aidas-MacBook-Pro.local
-| | |____events.out.tfevents.1708315537.Aidas-MacBook-Pro.local
-|____.DS_Store
-|____Reproducibility
-| |____LISI_calculation_UMAP.R
-| |____reference_mapping_based_on_RNA.R
-| |____Cor0.5_overlap_ref.R
-| |____calculate_ARI_ACC.py
-| |____reference_mapping_based_on_ATAC.R
-| |____slingshot.R
-| |____OverCorrectionScore_calculation_UMAP.R
-| |____Monocle.R
-| |____PBMCs_linkages_identification.R
-|____models
-|______pycache__
-| |____train.cpython-39.pyc
-| |____log_likelihood.cpython-39.pyc
-| |____utils.cpython-39.pyc
-| |____modules.cpython-39.pyc
-| |____load.cpython-39.pyc
-| |____model.cpython-39.pyc
-|____CellExpanda.yaml
-|____model.py
-|____README.md
-|____log_likelihood.py
-|____utils.py
-|____configs
-| |____ReadMe_for_yaml_file.txt
-| |____.DS_Store
-| |____sampleName.yaml
-|____train.py
-|____modules.py
-|____load.py
-|____main.py
-|____data
-| |____.DS_Store
-| |____sampleName
-| | |____sampleName_SparseMatrix.txt
-| | |____sampleName_barcode.txt
-| | |____feature_discriminator.txt
+
 
 # Input Data
 CellExpanda takes count matrices from paired single-cell multimodal data. There is no limitation for the types and numbers of modalities.
