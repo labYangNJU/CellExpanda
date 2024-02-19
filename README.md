@@ -57,13 +57,13 @@ If GPU is used, the torch version should be compiled with your version of the CU
 # Usage
 1.Activate conda environment
 
-conda activate CellExpanda
+      conda activate CellExpanda
 
-2.Configure your sampleName.yaml files under the configs/ directory. Detailed instructions can be found in the ReadMe_for_yaml_file.txt file.
+2.Configure your sampleName.yaml files under the directory CellExpanda/configs/. Detailed instructions can be found in the ReadMe_for_yaml_file.txt file.
 
 3.Run the CellExpanda model.
 
-python3 main.py --dataset=sampleName
+      python3 main.py --dataset=sampleName
 
 
 # Dependencies
