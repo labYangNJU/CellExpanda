@@ -83,19 +83,21 @@ The reconstructed data would be generated in the directory CellExpanda/result/sa
 
 
 # Example
-An example we shown here is a dataset joint profiling scChIP of three distinct histone modifications (MulTI-Tag) that used in our paper.
+An example we shown here is the dataset joint profiling scChIP of three distinct histone modifications (MulTI-Tag), which is used in our paper.
 
 The dataset can be downloaded from the Zenodo repository: https://doi.org/10.5281/zenodo.6636675. 
 
 Step 1. Prepare the input dataset.
 
-The input dataset can be prepared using the  script under the directory scripts/.
+The input dataset can be prepared using the Data_prepare_for_scChip_K27_K36_K4m1_dataset.R script under the directory scripts/.
 
 Step 2. Run CellExpanda with the config file under the directory CellExpanda/configs/.
 
       python3 main.py --dataset=scChip_K27_K36_K4m1 --mode=train
 
 Step 3. You can check the output with the one provided in the directory CellExpanda/result/scChip_K27_K36_K4m1_out/.
+
+Note: The results may be a little different due to the differences in versions of dependencies.
 
 
 # Dependencies
