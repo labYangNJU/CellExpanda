@@ -36,7 +36,7 @@ data_params:
 
 exp_params: 
   seed: 42
-  device: "cpu" # If cuda is not available, please change to "cpu".
+  device: "cuda:0" # If cuda is not available, please change to "cpu".
 
 trainer_params: 
   early_stop: False
