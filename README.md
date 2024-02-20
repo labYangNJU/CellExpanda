@@ -2,8 +2,6 @@
 # Introduction
 CellExpanda is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells. Running CellExpanda on GPU is recommended if available.
 
-For more details, please check our publication later.
-
 
 # Directory structure
       .
@@ -41,13 +39,14 @@ The file with feature information with feature name and the additional weight fo
 
 
 # Installation
-option 1:
-Create a conda environment with python3 and install all the dependencies.
 
-option 2:
+option 1:
 Create an environment from the env.yml file (We tested with conda==4.12.0, python==3.6.9).
 
       conda env create -f env.yaml
+
+option 2:
+Create your own conda environment with python3 and install all the dependencies.
 
 Notes: 
 If any dependencies are not installed automatically, you should install them by pip or conda.
