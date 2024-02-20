@@ -80,6 +80,18 @@ The representation of cells would be generated in the directory CellExpanda/resu
 The reconstructed data would be generated in the directory CellExpanda/result/sampleName and can be extracted as: 
 
       python3 main.py --dataset=sampleName --mode=reconstruct
+
+
+# Example
+The example we shown here is a dataset joint profiling scChIP of three distinct histone modifications (MulTI-Tag) that used in our paper.
+
+The dataset can be downloaded from the Zenodo repository: https://doi.org/10.5281/ zenodo.6636675. 
+
+Step 1. Prepare the input dataset.
+
+The input dataset can be prepared using the "" script under the directory scripts/.
+
+Step 2. 
       
 
 # Dependencies
