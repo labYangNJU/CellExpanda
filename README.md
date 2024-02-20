@@ -93,7 +93,9 @@ The input dataset can be prepared using the  script under the directory scripts/
 
 Step 2. Run CellExpanda with the config file under the directory CellExpanda/configs/.
 
-      python3 main.py --dataset=sampleName --mode=train
+      python3 main.py --dataset=scChip_K27_K36_K4m1 --mode=train
+
+Step 3. You can check the output with the one provided in the directory CellExpanda/result/scChip_K27_K36_K4m1_out/.
 
 
 # Dependencies
