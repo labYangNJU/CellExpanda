@@ -20,7 +20,7 @@ if os.path.exists('model/'):
     message = 'OK'
 else:
     os.makedirs("model")
-save_path = 'models/'
+save_path = 'model/'
 
 plt.switch_backend("agg")
 
