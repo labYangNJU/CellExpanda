@@ -65,3 +65,7 @@ Example:
 device: The device to run CellExpanda.
 Example:
 "cuda:0" # If cuda is not available, please change to "cpu".
+
+plot: The emmbeddings of cells.
+Example:
+"tsne" # Another choice is "umap".
