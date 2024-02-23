@@ -54,7 +54,7 @@ trainer_params:
 clustering_params:  
   alg: 'louvain'
   n_louvain: 10 
-  plot: 'tsne'
+  plot: 'umap'
   
     
     
