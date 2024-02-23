@@ -76,7 +76,7 @@ The representation of cells would be generated in the directory CellExpanda/resu
             ├── latent-sampleName-512-10.txt        # The latent representation of cells (can be used to generate UMAP emmbeddings).
             ├── GMVAE-alpha-gan-tsne-pred.png       # The tSNE visualization of cells. 
             ├── ...  
-      └── sampleName-512-10-cluster_result.csv      # The clustering information of cells with tSNE emmbeddings. 
+      └── sampleName-512-10-cluster_result.csv      # The clustering information of cells with tSNE/UMAP emmbeddings. 
       
 The reconstructed data would be generated in the directory CellExpanda/result/sampleName and can be extracted as: 
 
@@ -114,7 +114,7 @@ Note: The results may be a little different due to the differences in versions o
 + tensorboardX
 + python-louvain
 + leidenalg
-+ umap
++ umap-learn
 + torchsummary
 + pysam
 + pytorch_metric_learning
