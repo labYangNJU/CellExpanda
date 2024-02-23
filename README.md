@@ -7,7 +7,7 @@ CellExpanda is implemented by python to take full advantage of paired single-cel
       .
       ├── CellExpanda          # Main Python package
             ├── configs        # Config yaml files for each dataset 
-            ├── result        # result files for each dataset 
+            ├── result         # result files for each dataset 
             ├── main.py
             ├── model.py
             ├── modules.py
