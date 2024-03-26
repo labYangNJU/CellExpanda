@@ -21,7 +21,7 @@ CellMATE is implemented by python to take full advantage of paired single-cell m
 
 # Input Data
 CellMATE takes count matrices from paired single-cell multimodal data. There is no limitation for the types and numbers of modalities.
-An expample input dataset can be found in the CellMATE/data/ directory. Note: You should change the "sampleName" of files according to your own dataset.
+An expample input dataset can be found in the data/ directory. Note: You should change the "sampleName" of files according to your own dataset.
 Three files are required:
 
 1.sampleName_SparseMatrix.txt 
