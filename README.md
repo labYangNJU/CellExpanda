@@ -1,11 +1,11 @@
-# CellExpanda
+# CellMATE
 # Introduction
-CellExpanda is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells. Running CellExpanda on GPU is recommended if available.
+CellMATE is implemented by python to take full advantage of paired single-cell multimodal data for holistic representation of cells. Running CellMATE on GPU is recommended if available.
 
 
 # Directory structure
       .
-      ├── CellExpanda          # Main Python package
+      ├── CellMATE          # Main Python package
             ├── configs        # Config yaml files for each dataset 
             ├── result         # result files for each dataset 
             ├── main.py
@@ -20,8 +20,8 @@ CellExpanda is implemented by python to take full advantage of paired single-cel
 
 
 # Input Data
-CellExpanda takes count matrices from paired single-cell multimodal data. There is no limitation for the types and numbers of modalities.
-An expample input dataset can be found in the CellExpanda/data/ directory. Note: You should change the "sampleName" of files according to your own dataset.
+CellMATE takes count matrices from paired single-cell multimodal data. There is no limitation for the types and numbers of modalities.
+An expample input dataset can be found in the CellMATE/data/ directory. Note: You should change the "sampleName" of files according to your own dataset.
 Three files are required:
 
 1.sampleName_SparseMatrix.txt 
@@ -57,11 +57,11 @@ If GPU is used, the torch version should be compiled with your version of the CU
 # Usage
 1.Activate conda environment
 
-      conda activate CellExpanda
+      conda activate CellMATE
 
-2.Configure your sampleName.yaml files under the directory CellExpanda/configs/. Detailed instructions can be found in the ReadMe_for_ConfigYaml_file.txt file.
+2.Configure your sampleName.yaml files under the directory CellMATE/configs/. Detailed instructions can be found in the ReadMe_for_ConfigYaml_file.txt file.
 
-3.Run the CellExpanda model.
+3.Run the CellMATE model.
 
       python3 main.py --dataset=sampleName --mode=train
 
@@ -69,7 +69,7 @@ If GPU is used, the torch version should be compiled with your version of the CU
 # Output 
 The output includes 1) the representation of cells; 2) the reconstructed single-cell multimodal data.
 
-The representation of cells would be generated in the directory CellExpanda/result/.
+The representation of cells would be generated in the directory CellMATE/result/.
 
       result
       ├── sampleName                                
@@ -78,7 +78,7 @@ The representation of cells would be generated in the directory CellExpanda/resu
             ├── ...  
       └── sampleName-512-10-cluster_result.csv      # The clustering information of cells with tSNE/UMAP emmbeddings. 
       
-The reconstructed data would be generated in the directory CellExpanda/result/sampleName and can be extracted as: 
+The reconstructed data would be generated in the directory CellMATE/result/sampleName and can be extracted as: 
 
       python3 main.py --dataset=sampleName --mode=reconstruct
 
@@ -92,11 +92,11 @@ Step 1. Prepare the input dataset.
 
 The input dataset can be prepared using the Data_prepare_for_scChip_K27_K36_K4m1_dataset.R script under the directory scripts/.
 
-Step 2. Run CellExpanda with the config file under the directory CellExpanda/configs/.
+Step 2. Run CellMATE with the config file under the directory CellMATE/configs/.
 
       python3 main.py --dataset=scChip_K27_K36_K4m1 --mode=train
 
-Step 3. You can check the output with the one provided in the directory CellExpanda/result/scChip_K27_K36_K4m1_out/.
+Step 3. You can check the output with the one provided in the directory CellMATE/result/scChip_K27_K36_K4m1_out/.
 
 Note: The results may be a little different due to the differences in versions of dependencies.
 
