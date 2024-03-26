@@ -74,7 +74,7 @@ The representation of cells would be generated in the directory CellMATE/result/
       result
       ├── sampleName                                
             ├── latent-sampleName-512-10.txt        # The latent representation of cells (can be used to generate UMAP emmbeddings).
-            ├── GMVAE-alpha-gan-tsne-pred.png       # The tSNE visualization of cells. 
+            ├── CellMATE-sampleName-tsne-pred.png       # The tSNE visualization of cells. 
             ├── ...  
       └── sampleName-512-10-cluster_result.csv      # The clustering information of cells with tSNE/UMAP emmbeddings. 
       
